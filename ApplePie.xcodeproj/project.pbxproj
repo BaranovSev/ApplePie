@@ -16,6 +16,7 @@
 		FD668A6F2AE5BB8C004BEC05 /* ApplePieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD668A6E2AE5BB8C004BEC05 /* ApplePieTests.swift */; };
 		FD668A792AE5BB8C004BEC05 /* ApplePieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD668A782AE5BB8C004BEC05 /* ApplePieUITests.swift */; };
 		FD668A7B2AE5BB8C004BEC05 /* ApplePieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD668A7A2AE5BB8C004BEC05 /* ApplePieUITestsLaunchTests.swift */; };
+		FDD431AF2AE6753F00743522 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD431AE2AE6753F00743522 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD668A742AE5BB8C004BEC05 /* ApplePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD668A782AE5BB8C004BEC05 /* ApplePieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITests.swift; sourceTree = "<group>"; };
 		FD668A7A2AE5BB8C004BEC05 /* ApplePieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDD431AE2AE6753F00743522 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FD668A572AE5BB8B004BEC05 /* AppDelegate.swift */,
 				FD668A592AE5BB8B004BEC05 /* SceneDelegate.swift */,
 				FD668A5B2AE5BB8B004BEC05 /* ViewController.swift */,
+				FDD431AE2AE6753F00743522 /* Game.swift */,
 				FD668A5D2AE5BB8B004BEC05 /* Main.storyboard */,
 				FD668A602AE5BB8C004BEC05 /* Assets.xcassets */,
 				FD668A622AE5BB8C004BEC05 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				FD668A5C2AE5BB8B004BEC05 /* ViewController.swift in Sources */,
 				FD668A582AE5BB8B004BEC05 /* AppDelegate.swift in Sources */,
 				FD668A5A2AE5BB8B004BEC05 /* SceneDelegate.swift in Sources */,
+				FDD431AF2AE6753F00743522 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +457,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BaranovStepan.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -473,6 +481,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +489,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BaranovStepan.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
